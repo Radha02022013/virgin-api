@@ -1,10 +1,10 @@
-package com.virgingames.currencyinfo;
+package com.virgingames.model;
 
 import io.restassured.response.ValidatableResponse;
 import net.serenitybdd.annotations.Step;
 import net.serenitybdd.rest.SerenityRest;
 
-public class CurrencySteps {
+public class CurrencyPojo {
 
 
     @Step("Getting all data with currency GBP")

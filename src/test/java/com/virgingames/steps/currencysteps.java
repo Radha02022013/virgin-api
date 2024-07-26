@@ -1,6 +1,6 @@
 package com.virgingames.steps;
 
-import com.virgingames.currencyinfo.CurrencySteps;
+import com.virgingames.model.CurrencyPojo;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.response.ValidatableResponse;
@@ -11,7 +11,7 @@ public class currencysteps {
     static ValidatableResponse response;
 
     @Steps
-    CurrencySteps steps;
+    CurrencyPojo steps;
 
     @When("I send specific {string} endpoint")
     public void iSendSpecificEndpoint(String currency) {
